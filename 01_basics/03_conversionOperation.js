@@ -22,5 +22,21 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let someNumber = 33;
 let stringNumber = String(someNumber);
-console.log(typeof stringNumber);
-console.log(stringNumber);
+//console.log(typeof stringNumber);
+//console.log(stringNumber);
+
+// -------------------> Operations <---------------
+
+// Arithmetic operations
+
+// console.log(3+6);
+// console.log(6-3);
+// console.log(2*6);
+// console.log(6/2);
+// console.log(2**4);
+// console.log(6%2);
+
+let str1 = "hello";
+let str2 = " hitesh";
+let str3 = str1 + str2;
+console.log(str3);
