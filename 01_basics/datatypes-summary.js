@@ -9,7 +9,7 @@
 
 const id = Symbol('123');
 const anotherId = Symbol('123');
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 
 // Reference type ( Non primitive data type) ---> 
@@ -17,11 +17,28 @@ console.log(id === anotherId);
 // Arrays, Objects, Functions 
 
 let heros = [1,2,7,23, 79] //---> arrays
-let mySelf= {  // this is an object 
-    name: hitesh,
-    age : 45,
-} 
+
 
 const myFunction = function(){
     console.log("hello world");
 }
+
+// ------------------> Stack and Heap memory <------------------------------------
+
+// Stack memory used in primitive data types and heap used in non primitive data types
+
+let myYoutubename = "hiteshchaudhrydotcom";
+let anotherName = myYoutubename;
+anotherName = "chaiaurcode";
+// console.log(anotherName);
+// console.log(myYoutubename);
+
+let userOne = {
+    Email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne;
+//console.log(userTwo);
+userTwo.Email = "hiterh@google.com";
+console.log(userOne);  
