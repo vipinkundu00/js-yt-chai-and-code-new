@@ -26,3 +26,9 @@ const JsUser = {
 // Object.freeze(JsUser)  // to freeze objects 
 // JsUser.email = "hitesh@microsoft.com"
 console.log(JsUser.email);
+
+JsUser.greeting = function(){
+    console.log("hello js user");
+}
+
+console.log(JsUser.greeting);
