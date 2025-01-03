@@ -44,8 +44,46 @@ const users = [
 ]
 
 // console.log(users[1].email);
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // to enquire about some property of an object use .hasOwnProperty
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // to enquire about some property of an object use .hasOwnProperty
+
+
+// ------------------> Destructuring <----------------------
+
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseinstructor: "hitesh",
+}
+
+course.courseinstructor;
+
+const {courseinstructor: instructor} = course;
+// console.log(instructor);
+
+// const navbar = ({company}) => { // {} it means destructuring
+    
+// }
+
+// navbar(company = "hitesh");
+
+// {                                       // syntax of a json
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free",
+// }
+
+// [                               // data in an api can be found in this format also. objects inside array
+//     {},
+//     {},
+//     {}
+// ]
+
+
+
+
+
