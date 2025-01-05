@@ -9,13 +9,10 @@ if(true){
     var c = 30;
     // console.log(a);
     
-}
-
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
     
 }
-console.log(a);
+
+// console.log(a);
 // console.log(b);
 // console.log(c);
 
